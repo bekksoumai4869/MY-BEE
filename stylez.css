@@ -1,0 +1,182 @@
+b{
+    color: blue;
+}
+.html {
+    color: crimson;
+}
+#e{
+font-size: 88px;
+}
+.hi {
+width: 210px;
+height: 150px  ;
+background-color: aquamarine;
+border:  green 5px solid;
+background-image: url(téléchargement\ \(12\).jpg);
+margin-top: 50px;
+padding-top:50px ;
+border-radius: 50%
+}
+
+.hi:hover {
+    border: orchid 5px solid;
+    transform: scale(1.4) rotate(360deg) 
+    translateX(50PX) translateY(30PX);
+    transition: 6s;
+}
+
+/* الحاوية التي تحتوي العنصرين */
+.container{
+  width: 500px;
+  height: 290px;
+  display:flex;        
+  justify-content: center;
+  gap: 30px;
+}
+.hello {
+    width: 240px;
+    height: 290px;
+    padding-left: 10px;
+    background-color: rgba(108, 106, 104, 0.518);
+    border: 2px solid rgba(108, 106, 104, 0.518);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.hello:hover {
+    border: 2px solid transparent;
+    background:
+        linear-gradient(rgba(255, 209, 4, 0.73), rgba(0, 246, 46, 0.628)) padding-box,
+        linear-gradient(45deg, rgb(58, 72, 220), rgb(18, 222, 100)) border-box;
+}
+.w{
+    width: 240px;
+    height: 290px;
+    background-color: rgba(23, 245, 7, 0.915);
+    border: 2px solid rgba(248, 128, 8, 0.903);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgb(75, 1, 247);
+
+}
+/* كل عنصر .box{
+  width:360px;
+  height:280px;
+  border-radius:14px;
+  background:#1b1f2b;
+  border:1px solid rgba(255,255,255,.1);}*/
+.fog-btn {
+    background: rgba(245, 12, 12, 0.3);
+    color: black;
+    padding: 5px 10px;
+    border: 0.5px solid rgb(36, 36, 36); 
+    border-radius: 9px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.f{
+    color: rgb(224, 101, 101);
+    background-color: rgb(233, 95, 85);
+    border: 2px solid rgba(77, 74, 72, 0.767);
+}/*!!!!*/
+.P{
+    width:90PX ;
+    height: 90px;
+    background-color: rgba(192, 185, 185, 0.432);
+    color: black;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    /*margin_left: 50PX;
+    position: static ;
+        position: relative;*/
+    right: 40px;
+    bottom:  50px;
+    position: fixed;
+    border-radius: 100px;
+}
+.soou{
+    left: 0px;
+    top: 0px;
+    color: blueviolet;
+    position: sticky;
+    font-size: large;
+    padding: 20px;
+    background-color: darkorange;
+}
+.G{
+    width:300PX ;
+    height: 300px;
+    background-color: rgba(192, 185, 185, 0.432);
+    position: relative;
+}
+.D{ 
+    width:90PX ;
+    height: 90px;
+    background-color: rgba(235, 11, 11, 0.432);
+    position: absolute;
+    top: -150px;
+transform: translate(50PX.40PX);
+}
+.OO{ 
+    color: black;
+    background-color: rgb(48, 127, 197);
+    display: none;
+    visibility: hidden;
+}
+body{ 
+  background-image:url(beeees.jpg);
+  backdrop-filter: blur(6px);
+}
+.souma{
+    font-size: 90px;
+
+}
+.ah{
+    font-size: 100px;
+}
+
+/*hyuguhu*/
+.container2{
+  width: 800px;
+  height: 800px;
+  display:flex;        
+  justify-content: center;
+  gap: 30px;
+}
+.bruvet {
+    width: 395px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+background:
+        linear-gradient(rgba(255, 209, 4, 0.73), rgba(255, 0, 212, 0.628)) padding-box,
+        linear-gradient(45deg, rgb(58, 72, 220), rgb(222, 18, 18)) border-box;    border: 2px solid rgba(108, 106, 104, 0.518);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgb(14, 14, 14);
+}
+.Book{ background:linear-gradient(135deg, var(--accent), var(--accent2), var(--accent3));
+    color: linear-gradient(rgb(254, 246, 6));
+    -webkit-background-clip: text; 
+    display: inline-block; 
+    font-size: 40px;
+  }
+.fog-btn2 {
+    background: rgba(235, 235, 163, 0.853);
+    color: black;
+    padding: 5px 10px;
+    border: 3.5px solid rgba(241, 123, 182, 0.179); 
+    border-radius: 9px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.bar{
+    display: static;
+    color: brown;
+    background: linear-gradient(45deg, rgb(58, 72, 220), rgb(222, 18, 18)) border-box;
+    gap: 10px;
+    padding: 1px;
+    backdrop-filter: blur(6px);
+
+}
